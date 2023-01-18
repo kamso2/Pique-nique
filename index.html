@@ -5,8 +5,90 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pique-nique</title>
+    <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
-    
+    <div class="All">
+        <div class="entete">
+            <p id="e1">Pique-nique Multi-associations</p>
+            <p id="e2">Inscriptions</p>
+        </div>
+        <div class="container">
+            <form method="get" action="">
+                <div class="Part">
+                    <div class="part1">
+                        <p>
+                            <label for="prenom">Prénom : </label>
+                            
+                            
+                        </p>
+                        <p>
+                            <label for="password">Mot de passe : </label>
+                            
+                        </p>
+                        <p>
+                            <label for="association">Assocation : </label>
+                            
+                        </p>
+                        <p>
+                            <label for="disponibilite">Disponibilite pour la semaine du 22 juin : </label>
+                            
+                        </p>
+                        <p>
+                            <label for="contribution">Contribution : </label>
+                            
+                        </p>
+                        <p>
+                            <label for="commentaire">Commentaires : </label>
+                            
+                        </p>
+                        
+                    </div>
+                    <div class="part2">
+                        <p>
+                            <input class="long_input" type="text" name="prenom" id="prenom">
+                            
+                        </p>
+                        <p>
+                         
+                            <input class="long_input" type="password" name="password" id="password">
+                            
+                        </p>
+                        <p>
+                          
+                            <select name="association" id="association">
+                                <option value="asssociationX">AssociationX</option>
+                                <option value="asssociationY">AssociationY</option>
+                                <option value="asssociationZ">AssociationZ</option>
+                            </select>
+                            
+                        </p>
+                        <p>
+                            <input type="checkbox" name="disponibilite" id="lundi"><label for="lundi">lundi</label>
+                            <input type="checkbox" name="disponibilite" id="mardi"><label for="mardi">Mardi</label>
+                            <input type="checkbox" name="disponibilite" id="mercredi"><label for="mercredi">Mercredi</label>
+                            <input type="checkbox" name="disponibilite" id="jeudi"><label for="jeudi">Jeudi</label>
+                            <input type="checkbox" name="disponibilite" id="vendredi"><label for="vendredi">Vendredi</label>
+                            
+                        </p>
+                        <p>
+                            <input type="radio" name="contribution" id="Entrée"><label for="Entrée">Entrée</label>
+                            <input type="radio" name="contribution" id="Plat"><label for="Plat">Plat</label>
+                            <input type="radio" name="contribution" id="Dessert"><label for="Dessert">Dessert</label>
+                            
+                        </p>
+                        <p>
+                            <textarea name="commentaire" id="commentaire" cols="30" rows="10" placeholder="commentaire"></textarea>
+                            
+                        </p>
+                        
+                        <input class="btn" type="submit" value="S'inscrire !">
+                        <input class="btn" type="reset" value="Annuler">
+            
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
